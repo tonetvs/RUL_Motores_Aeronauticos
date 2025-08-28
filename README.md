@@ -26,8 +26,7 @@ Prever a quantidade de ciclos restantes até a falha de cada motor, utilizando d
 - Engenharia de features:
   - Deltas e janelas temporais
   - Extração de últimos ciclos críticos
-  - Aplicação de log1p(RUL)
-- Padronização (StandardScaler)
+  - Padronização (StandardScaler)
 
 ### 2. Modelagem:
 - LSTM (Keras) para aprendizado do padrão de degradação temporal
