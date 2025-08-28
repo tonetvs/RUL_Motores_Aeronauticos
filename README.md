@@ -45,27 +45,13 @@ Prever a quantidade de ciclos restantes até a falha de cada motor, utilizando d
 ```mermaid
 flowchart LR
   A[Dados brutos] --> B[Engenharia de features]
-  B --> C[Padronização / PCA]
+  B --> C[Padronização]
   C --> D1[LSTM]
   C --> D2[XGBoost]
   D1 --> E[Predição Híbrida]
   D2 --> E
   E --> F[Avaliação final]
 ```
-
-## Resultados
-
-As métricas de desempenho serão apresentadas para o conjunto de validação e teste separadamente. Substitua abaixo pelos valores obtidos no notebook:
-
-### Validação
-| MAE | RMSE | R² |
-|-----|------|----|
-|     |      |    |
-
-### Teste
-| MAE | RMSE | R² |
-|-----|------|----|
-|     |      |    |
 
 ## Bibliotecas Utilizadas
 
@@ -76,7 +62,7 @@ As métricas de desempenho serão apresentadas para o conjunto de validação e 
 - scikit-learn  
 - xgboost  
 - tensorflow / keras  
-- jupyter
+- colab
 
 ## Execução
 
@@ -107,7 +93,7 @@ rul-motores-aeronauticos/
 ## Autor
 
 Heitor Tonet  
-Engenheiro de Controle e Automação e Cientista de Dados, com foco em aplicações industriais, mobilidade inteligente e modelagem preditiva aplicada ao mundo físico.
+Engenheiro de Controle e Automação e Cientista de Dados, com foco em manutenção preditiva industrial, especializado em modelos de RUL, detecção de falhas, séries temporais e simulações baseadas em física.
 
 ## Licença
 
