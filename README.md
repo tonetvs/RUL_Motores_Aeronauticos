@@ -67,24 +67,12 @@ flowchart LR
 ## Execução
 
 O notebook principal já está com os resultados executados e documentados. Pode ser aberto diretamente em qualquer ambiente compatível com Jupyter Notebook.  
-Caso deseje reproduzir os resultados do zero:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-
-conda create -n rul python=3.11 -y
-conda activate rul
-pip install -r requirements.txt
-
-jupyter notebook RUL_motores_aeronauticos.ipynb
-```
 
 ## Estrutura
 
 rul-motores-aeronauticos/  
-├── data/                     # Dados de entrada (não versionados)  
-├── models/                   # Modelos treinados (opcional)  
+├── data/                       
+├── models/                     
 ├── RUL_motores_aeronauticos.ipynb  
 ├── requirements.txt  
 ├── README.md  
